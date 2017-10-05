@@ -1,0 +1,21 @@
+  git config --global user.firozhere@gmail.com
+  git config --global user.shekh firoz alam
+  git config --global color.ui true
+  git config --list
+  
+Git Starting  a repository
+   git init
+   git status
+
+Git Staging Files
+
+    git add <file-name>
+    git add <file-name> <another file> <yet another file>
+    git add .
+    git add -A
+    git rm --cached <File-Name>
+    git reset <file name>
+
+GIT commiting to repository
+    git commit -m "some message"
+    git reset --soft HEAD^
