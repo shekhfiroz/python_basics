@@ -2,14 +2,14 @@
 class Square:
 	def __init__(self,x):
 		self.x=x
-		def area1(self):
-			print('area of square',self.x*self.x)
-			class Rectangle(Square):
+	def area1(self):
+		print('area of square',self.x*self.x)
+class Rectangle(Square):
 	def __init__(self,x,y):
 		super().__init__(x)
 		self.y=y
-		def area(self):
-			print("Area of rectangle=",self.x*self.y)
-			super().area1()
-r=Rectangle(10,20)
+	def area(self):
+		print("Area of rectangle=",self.x*self.y)
+		super().area1()
+r=Rectangle(20,30)
 r.area()
