@@ -12,3 +12,10 @@ Traceback (most recent call last):
   File "<ipython-input-2-1832f1327aa3>", line 7, in <listcomp>
     a,b=[int(x) for x in input('Enter two numbers:').split()]
 ValueError: invalid literal for int() with base 10: '10,0'
+ERROR:root:invalid literal for int() with base 10: '10,20'
+Traceback (most recent call last):
+  File "<ipython-input-3-1832f1327aa3>", line 7, in <module>
+    a,b=[int(x) for x in input('Enter two numbers:').split()]
+  File "<ipython-input-3-1832f1327aa3>", line 7, in <listcomp>
+    a,b=[int(x) for x in input('Enter two numbers:').split()]
+ValueError: invalid literal for int() with base 10: '10,20'
