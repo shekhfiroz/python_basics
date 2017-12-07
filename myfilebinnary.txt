@@ -1,0 +1,2 @@
+hey i m writing in file
+now close the file
